@@ -3,6 +3,7 @@ import Title from "./Title"
 import Paragraph from "./Paragraph"
 import Paragraph2 from "./Paragraph2"
 import Paragraph3 from "./Paragraph3"
+import Paragraph4 from "./Paragraph4"
 import './App.css'
 
 function App(){
@@ -15,15 +16,17 @@ function App(){
         <Paragraph/>
         <Paragraph2/>
         </div>
-        <div class="images">
+        <div className="images">
           <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/c/cd/Corinthians_Paulista_1916.png"/>
           <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/3/30/Corinthians_Paulista_1916-19.png"/>
           <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/en/1/1f/Sport_Club_Corinthians_Paulista_Logo.png"/>
         </div>
+        <div>
+          <Paragraph4 team="Corinthians" paragraph={true}/>
+          <Paragraph4 team="Green Atom Barrafundense" paragraph={false}/>
+        </div>
     </div>
   )
-    
-  
 }
 
 export default App
