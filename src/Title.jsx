@@ -1,8 +1,7 @@
-function Title(){
-    let name= "Paulo Ricardo Freitas Xavier Fiuza"
+function Title({title}){
     return (
         <div>
-            <h1>{name}- Full Stack Developer</h1>
+            <h1>{title}</h1>
         </div>
         
     )

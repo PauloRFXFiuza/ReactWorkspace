@@ -8,8 +8,8 @@ function App(){
   return (
     <div>
         <h1>Today is Wednesday, 12/18/2024</h1>
-        <Title/>
-        <Title/>
+        <Title title="Paulo Fiuza"/>
+        <Title title="Full Stack Developer"/>
         <Paragraph/>
         <Paragraph2/>
         <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/c/cd/Corinthians_Paulista_1916.png"/>
