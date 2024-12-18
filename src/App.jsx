@@ -12,7 +12,8 @@ function App(){
         <Title/>
         <Paragraph/>
         <Paragraph2/>
-        <Paragraph3/>
+        <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/c/cd/Corinthians_Paulista_1916.png"/>
+        <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/3/30/Corinthians_Paulista_1916-19.png"/>
     </div>
   ) 
 }
