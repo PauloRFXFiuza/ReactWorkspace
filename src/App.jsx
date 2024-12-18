@@ -1,9 +1,10 @@
 /* 01 - Criar um componente do zero */
+import Title from "./Title";
 function App(){
-  return <h1>Hi, People!</h1>
+  return <Title/>;
 };
 
-export default App
+export default App;
 
 /*
 import { useState } from 'react'
