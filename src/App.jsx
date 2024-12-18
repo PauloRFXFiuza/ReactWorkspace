@@ -3,19 +3,27 @@ import Title from "./Title"
 import Paragraph from "./Paragraph"
 import Paragraph2 from "./Paragraph2"
 import Paragraph3 from "./Paragraph3"
+import './App.css'
 
 function App(){
   return (
     <div>
+        <div>
         <h1>Today is Wednesday, 12/18/2024</h1>
         <Title title="Paulo Fiuza"/>
         <Title title="Full Stack Developer"/>
         <Paragraph/>
         <Paragraph2/>
-        <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/c/cd/Corinthians_Paulista_1916.png"/>
-        <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/3/30/Corinthians_Paulista_1916-19.png"/>
+        </div>
+        <div class="images">
+          <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/c/cd/Corinthians_Paulista_1916.png"/>
+          <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/commons/3/30/Corinthians_Paulista_1916-19.png"/>
+          <Paragraph3 urlImg2="https://upload.wikimedia.org/wikipedia/en/1/1f/Sport_Club_Corinthians_Paulista_Logo.png"/>
+        </div>
     </div>
-  ) 
+  )
+    
+  
 }
 
 export default App
