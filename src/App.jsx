@@ -3,6 +3,7 @@ import Title from "./Title"
 function App(){
   return (
     <div>
+        <h1>Today is Wednesday, 12/18/2024</h1>
         <Title/>
         <Title/>
     </div>
