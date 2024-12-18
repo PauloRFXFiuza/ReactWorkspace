@@ -1,14 +1,22 @@
 function Paragraph2(){
+        
+        let number1=2; 
+        let number2=10;
+
     return (
+        
         <div>
             <p>
-            The smile of dawn arrived early May she carried a gift from her home <br></br>
-            The night shed a tear to tell her of fear and of sorrow and pain she´ll never outgrow <br></br>
-            Death is the first dance, eternal 
+            {number1} + {number2} = {number1 + number2}
             </p>
             <p>
-            There´s no more freedom<br></br>
-            The both of you will be confined to this mind
+            {number1} - {number2} = {number1 - number2}
+            </p>
+            <p>
+            {number1} * {number2} = {number1 * number2}
+            </p>
+            <p>
+            {number1} / {number2} = {number1 / number2}
             </p>
         </div>
     )
