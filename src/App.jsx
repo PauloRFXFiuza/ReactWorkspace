@@ -1,24 +1,21 @@
 /* 01 - Criar um componente do zero */
-import { useState } from "react"
 import Title from "./Title"
 import Paragraph from "./Paragraph"
 import Paragraph2 from "./Paragraph2"
 import Paragraph3 from "./Paragraph3"
 import Paragraph4 from "./Paragraph4"
+import Paragraph5 from "./Paragraph5"
 import './App.css'
 
 function App(){
-  const [text, setText] = useState("Stage 1")
   return (
     <div>
-        <div>
-          <p style={{color:"gray"}}> {text} </p>
-          <button onClick={()=>{setText("Stage 2")}}>Change State</button>
-        </div>
         <div>
         <h1>Today is Wednesday, 12/18/2024</h1>
         <Title title="Paulo Fiuza"/>
         <Title title="Full Stack Developer"/>
+        <Paragraph5/>
+        <Paragraph5/>
         <Paragraph/>
         <Paragraph2/>
         </div>
