@@ -1,5 +1,6 @@
 function Title(){
-    return <h1>Paulo Fiuza- Full Stack Developer</h1>
+    let name = "Paulo Ricardo Freitas Xavier Fiuza"
+    return <h1>{name}- Full Stack Developer</h1>
 }
 
 export default Title
