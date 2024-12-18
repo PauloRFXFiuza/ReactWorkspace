@@ -2,6 +2,7 @@
 import Title from "./Title"
 import Paragraph from "./Paragraph"
 import Paragraph2 from "./Paragraph2"
+import Paragraph3 from "./Paragraph3"
 
 function App(){
   return (
@@ -11,6 +12,7 @@ function App(){
         <Title/>
         <Paragraph/>
         <Paragraph2/>
+        <Paragraph3/>
     </div>
   ) 
 }
