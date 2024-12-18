@@ -1,10 +1,10 @@
 /* 01 - Criar um componente do zero */
-import Title from "./Title";
+import Title from "./Title"
 function App(){
-  return <Title/>;
-};
+  return <Title/>
+}
 
-export default App;
+export default App
 
 /*
 import { useState } from 'react'
