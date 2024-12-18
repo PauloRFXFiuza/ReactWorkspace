@@ -1,6 +1,8 @@
 /* 01 - Criar um componente do zero */
 import Title from "./Title"
 import Paragraph from "./Paragraph"
+import Paragraph2 from "./Paragraph2"
+
 function App(){
   return (
     <div>
@@ -8,6 +10,7 @@ function App(){
         <Title/>
         <Title/>
         <Paragraph/>
+        <Paragraph2/>
     </div>
   ) 
 }
