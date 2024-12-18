@@ -1,11 +1,13 @@
 /* 01 - Criar um componente do zero */
 import Title from "./Title"
+import Paragraph from "./Paragraph"
 function App(){
   return (
     <div>
         <h1>Today is Wednesday, 12/18/2024</h1>
         <Title/>
         <Title/>
+        <Paragraph/>
     </div>
   ) 
 }
