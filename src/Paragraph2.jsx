@@ -19,7 +19,7 @@ function Paragraph2(){
             <p>
             {number1} / {number2} = {number1 / number2}
             </p>
-            <img src={urlImg}/>
+            <img width={80} src={urlImg}/>
         </div>
     )
 }
