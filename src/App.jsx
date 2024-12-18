@@ -1,7 +1,12 @@
 /* 01 - Criar um componente do zero */
 import Title from "./Title"
 function App(){
-  return <Title/>
+  return (
+    <div>
+        <Title/>
+        <Title/>
+    </div>
+  ) 
 }
 
 export default App
