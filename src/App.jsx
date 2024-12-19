@@ -1,10 +1,15 @@
 /* 01 - Criar um componente do zero */
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 import Title from "./Title"
 import Paragraph from "./Paragraph"
 import Paragraph2 from "./Paragraph2"
 import Paragraph3 from "./Paragraph3"
 import Paragraph4 from "./Paragraph4"
 import Paragraph5 from "./Paragraph5"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
 import './App.css'
 
 function App(){
@@ -14,6 +19,14 @@ function App(){
         <h1>Today is Wednesday, 12/18/2024</h1>
         <Title title="Paulo Fiuza"/>
         <Title title="Full Stack Developer"/>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/contact" element={<Contact/>} />
+          </Routes>
+        </BrowserRouter>
+    
         <Paragraph5/>
         <Paragraph5/>
         <Paragraph/>
